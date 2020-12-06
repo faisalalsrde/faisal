@@ -1,0 +1,230 @@
+body
+{
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+    font-size: 110%;
+}
+
+#sectionHome
+{
+    background-image: url(IMG_3791.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#sectionHome > div
+{
+    height: 100vh;
+    background-color: rgba(22,22,22,0.5);
+}
+
+#sectionHome .TypedHome
+{
+    border-bottom: 2px solid #149ddd;
+    font-size: 130%;
+    padding-bottom: 4px;
+}
+
+#PageContainer
+{
+ height: 100vh;   
+}
+
+.bd-highlight
+{
+    background-color: rgba(222,222,222,.15);
+    border: 1px solid rgba(222,222,222,.15);
+}
+
+#MenuContainer
+{
+    min-width: 300px;
+    max-width: 300px;
+    background-color: #121212; 
+}
+
+
+#ContentContainer
+{
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.MobileMenu
+{
+    background-color: transparent!important;
+}
+
+#ContentContainer section
+{
+    min-height: 100vh;
+}
+
+.sectionTitle
+{
+    padding-top: 20px;
+    font-size: 150%;
+    font-weight: 700;
+    
+}
+
+.SkillItem div span
+{
+  font-weight: 700;  
+}
+
+.SkillItem div div
+{
+  font-weight: 700;  
+  background-color: #a1a6ba;
+  height: 10px;    
+}
+
+.SkillItem div div div
+{
+  font-weight: 700; 
+  background-color: #149ddd;
+    
+}
+
+.sectionTitle::after
+{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: #149ddd;
+    margin-bottom: 10px;
+}
+
+.ResumeItems
+{
+    border-left: 4px solid #149ddd;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.ResumeItems *
+{
+    position: relative;
+    top: -18px;
+}
+
+.ResumeItems::before
+{
+    content:"";
+    width: 15px;
+    height: 15px;
+    border-radius: 60px;
+    background-color: white;
+    display: block;
+    position: relative;
+    left: -29.2px;
+    border: 2.5px solid #149ddd;
+}
+
+
+.AboutItem
+{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: block;
+}
+
+
+.border-5
+{
+    border-width: 10px;
+    border-style: solid;
+}
+
+.collapsing
+{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: none;
+}
+
+.main-block
+{
+    border-radius: 5px; 
+    border: solid 1px #ccc;
+    box-shadow: 1px 1px 25px rgba(0,0,0,.31); 
+    background: white;   
+}  
+
+#map 
+{
+    border-radius: 5px; 
+    border: solid 1px #ccc;
+    box-shadow: 1px 1px 25px rgba(0,0,0,.31); 
+    background: white; 
+    height: 435px; 
+    width: 100%;
+   
+}
+
+.faisal
+{
+    color: white;
+   
+}
+
+h6
+{
+  
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+#loc
+{
+    position: relative;
+    top: -10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#locsmall
+{
+   position: relative;
+    left: -102px;
+    top: 11px;
+}
+
+#Icolor
+{
+    color: #149ddd;
+    position: relative;
+    top: 1.3px;
+}
+
+#IcolorInterests
+{
+    color: #149ddd;
+    position: relative;
+    top: 8px;
+}
+
+
+
+
+
+
+
+
